@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91D6F4B0209BC1BE002229FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6F4AF209BC1BE002229FB /* AppDelegate.swift */; };
+		91D6F4B2209BC1BE002229FB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F4B1209BC1BE002229FB /* GameScene.sks */; };
+		91D6F4B4209BC1BE002229FB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F4B3209BC1BE002229FB /* Actions.sks */; };
+		91D6F4B6209BC1BE002229FB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6F4B5209BC1BE002229FB /* GameScene.swift */; };
+		91D6F4B8209BC1BE002229FB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6F4B7209BC1BE002229FB /* GameViewController.swift */; };
+		91D6F4BB209BC1BE002229FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F4B9209BC1BE002229FB /* Main.storyboard */; };
+		91D6F4BD209BC1BE002229FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F4BC209BC1BE002229FB /* Assets.xcassets */; };
+		91D6F4C0209BC1BE002229FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F4BE209BC1BE002229FB /* LaunchScreen.storyboard */; };
+		91D6F4CB209BC1BE002229FB /* Marble_MadnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6F4CA209BC1BE002229FB /* Marble_MadnessTests.swift */; };
+		91D6F4D6209BC1BE002229FB /* Marble_MadnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D6F4D5209BC1BE002229FB /* Marble_MadnessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91D6F4C7209BC1BE002229FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D6F4A4209BC1BE002229FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D6F4AB209BC1BE002229FB;
+			remoteInfo = "Marble Madness";
+		};
+		91D6F4D2209BC1BE002229FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D6F4A4209BC1BE002229FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D6F4AB209BC1BE002229FB;
+			remoteInfo = "Marble Madness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91D6F4AC209BC1BE002229FB /* Marble Madness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marble Madness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D6F4AF209BC1BE002229FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91D6F4B1209BC1BE002229FB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		91D6F4B3209BC1BE002229FB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		91D6F4B5209BC1BE002229FB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		91D6F4B7209BC1BE002229FB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		91D6F4BA209BC1BE002229FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91D6F4BC209BC1BE002229FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91D6F4BF209BC1BE002229FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91D6F4C1209BC1BE002229FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D6F4C6209BC1BE002229FB /* Marble MadnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marble MadnessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D6F4CA209BC1BE002229FB /* Marble_MadnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marble_MadnessTests.swift; sourceTree = "<group>"; };
+		91D6F4CC209BC1BE002229FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D6F4D1209BC1BE002229FB /* Marble MadnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marble MadnessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D6F4D5209BC1BE002229FB /* Marble_MadnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marble_MadnessUITests.swift; sourceTree = "<group>"; };
+		91D6F4D7209BC1BE002229FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91D6F4A9209BC1BE002229FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D6F4C3209BC1BE002229FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D6F4CE209BC1BE002229FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91D6F4A3209BC1BE002229FB = {
+			isa = PBXGroup;
+			children = (
+				91D6F4AE209BC1BE002229FB /* Marble Madness */,
+				91D6F4C9209BC1BE002229FB /* Marble MadnessTests */,
+				91D6F4D4209BC1BE002229FB /* Marble MadnessUITests */,
+				91D6F4AD209BC1BE002229FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91D6F4AD209BC1BE002229FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91D6F4AC209BC1BE002229FB /* Marble Madness.app */,
+				91D6F4C6209BC1BE002229FB /* Marble MadnessTests.xctest */,
+				91D6F4D1209BC1BE002229FB /* Marble MadnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91D6F4AE209BC1BE002229FB /* Marble Madness */ = {
+			isa = PBXGroup;
+			children = (
+				91D6F4AF209BC1BE002229FB /* AppDelegate.swift */,
+				91D6F4B1209BC1BE002229FB /* GameScene.sks */,
+				91D6F4B3209BC1BE002229FB /* Actions.sks */,
+				91D6F4B5209BC1BE002229FB /* GameScene.swift */,
+				91D6F4B7209BC1BE002229FB /* GameViewController.swift */,
+				91D6F4B9209BC1BE002229FB /* Main.storyboard */,
+				91D6F4BC209BC1BE002229FB /* Assets.xcassets */,
+				91D6F4BE209BC1BE002229FB /* LaunchScreen.storyboard */,
+				91D6F4C1209BC1BE002229FB /* Info.plist */,
+			);
+			path = "Marble Madness";
+			sourceTree = "<group>";
+		};
+		91D6F4C9209BC1BE002229FB /* Marble MadnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				91D6F4CA209BC1BE002229FB /* Marble_MadnessTests.swift */,
+				91D6F4CC209BC1BE002229FB /* Info.plist */,
+			);
+			path = "Marble MadnessTests";
+			sourceTree = "<group>";
+		};
+		91D6F4D4209BC1BE002229FB /* Marble MadnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91D6F4D5209BC1BE002229FB /* Marble_MadnessUITests.swift */,
+				91D6F4D7209BC1BE002229FB /* Info.plist */,
+			);
+			path = "Marble MadnessUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91D6F4AB209BC1BE002229FB /* Marble Madness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D6F4DA209BC1BE002229FB /* Build configuration list for PBXNativeTarget "Marble Madness" */;
+			buildPhases = (
+				91D6F4A8209BC1BE002229FB /* Sources */,
+				91D6F4A9209BC1BE002229FB /* Frameworks */,
+				91D6F4AA209BC1BE002229FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marble Madness";
+			productName = "Marble Madness";
+			productReference = 91D6F4AC209BC1BE002229FB /* Marble Madness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91D6F4C5209BC1BE002229FB /* Marble MadnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D6F4DD209BC1BE002229FB /* Build configuration list for PBXNativeTarget "Marble MadnessTests" */;
+			buildPhases = (
+				91D6F4C2209BC1BE002229FB /* Sources */,
+				91D6F4C3209BC1BE002229FB /* Frameworks */,
+				91D6F4C4209BC1BE002229FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D6F4C8209BC1BE002229FB /* PBXTargetDependency */,
+			);
+			name = "Marble MadnessTests";
+			productName = "Marble MadnessTests";
+			productReference = 91D6F4C6209BC1BE002229FB /* Marble MadnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91D6F4D0209BC1BE002229FB /* Marble MadnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D6F4E0209BC1BE002229FB /* Build configuration list for PBXNativeTarget "Marble MadnessUITests" */;
+			buildPhases = (
+				91D6F4CD209BC1BE002229FB /* Sources */,
+				91D6F4CE209BC1BE002229FB /* Frameworks */,
+				91D6F4CF209BC1BE002229FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D6F4D3209BC1BE002229FB /* PBXTargetDependency */,
+			);
+			name = "Marble MadnessUITests";
+			productName = "Marble MadnessUITests";
+			productReference = 91D6F4D1209BC1BE002229FB /* Marble MadnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91D6F4A4209BC1BE002229FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sadie Flick";
+				TargetAttributes = {
+					91D6F4AB209BC1BE002229FB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					91D6F4C5209BC1BE002229FB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91D6F4AB209BC1BE002229FB;
+					};
+					91D6F4D0209BC1BE002229FB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 91D6F4AB209BC1BE002229FB;
+					};
+				};
+			};
+			buildConfigurationList = 91D6F4A7209BC1BE002229FB /* Build configuration list for PBXProject "Marble Madness" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91D6F4A3209BC1BE002229FB;
+			productRefGroup = 91D6F4AD209BC1BE002229FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91D6F4AB209BC1BE002229FB /* Marble Madness */,
+				91D6F4C5209BC1BE002229FB /* Marble MadnessTests */,
+				91D6F4D0209BC1BE002229FB /* Marble MadnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91D6F4AA209BC1BE002229FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D6F4BB209BC1BE002229FB /* Main.storyboard in Resources */,
+				91D6F4B2209BC1BE002229FB /* GameScene.sks in Resources */,
+				91D6F4BD209BC1BE002229FB /* Assets.xcassets in Resources */,
+				91D6F4C0209BC1BE002229FB /* LaunchScreen.storyboard in Resources */,
+				91D6F4B4209BC1BE002229FB /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D6F4C4209BC1BE002229FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D6F4CF209BC1BE002229FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91D6F4A8209BC1BE002229FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D6F4B6209BC1BE002229FB /* GameScene.swift in Sources */,
+				91D6F4B8209BC1BE002229FB /* GameViewController.swift in Sources */,
+				91D6F4B0209BC1BE002229FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D6F4C2209BC1BE002229FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D6F4CB209BC1BE002229FB /* Marble_MadnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D6F4CD209BC1BE002229FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D6F4D6209BC1BE002229FB /* Marble_MadnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91D6F4C8209BC1BE002229FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D6F4AB209BC1BE002229FB /* Marble Madness */;
+			targetProxy = 91D6F4C7209BC1BE002229FB /* PBXContainerItemProxy */;
+		};
+		91D6F4D3209BC1BE002229FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D6F4AB209BC1BE002229FB /* Marble Madness */;
+			targetProxy = 91D6F4D2209BC1BE002229FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91D6F4B9209BC1BE002229FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D6F4BA209BC1BE002229FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91D6F4BE209BC1BE002229FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D6F4BF209BC1BE002229FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91D6F4D8209BC1BE002229FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91D6F4D9209BC1BE002229FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91D6F4DB209BC1BE002229FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZNJ79JJBC;
+				INFOPLIST_FILE = "Marble Madness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sadieflick.Marble-Madness222";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91D6F4DC209BC1BE002229FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZNJ79JJBC;
+				INFOPLIST_FILE = "Marble Madness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sadieflick.Marble-Madness222";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91D6F4DE209BC1BE002229FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X539AG7M54;
+				INFOPLIST_FILE = "Marble MadnessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sadieflick.Marble-MadnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marble Madness.app/Marble Madness";
+			};
+			name = Debug;
+		};
+		91D6F4DF209BC1BE002229FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X539AG7M54;
+				INFOPLIST_FILE = "Marble MadnessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sadieflick.Marble-MadnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marble Madness.app/Marble Madness";
+			};
+			name = Release;
+		};
+		91D6F4E1209BC1BE002229FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X539AG7M54;
+				INFOPLIST_FILE = "Marble MadnessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sadieflick.Marble-MadnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Marble Madness";
+			};
+			name = Debug;
+		};
+		91D6F4E2209BC1BE002229FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X539AG7M54;
+				INFOPLIST_FILE = "Marble MadnessUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sadieflick.Marble-MadnessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Marble Madness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91D6F4A7209BC1BE002229FB /* Build configuration list for PBXProject "Marble Madness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D6F4D8209BC1BE002229FB /* Debug */,
+				91D6F4D9209BC1BE002229FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D6F4DA209BC1BE002229FB /* Build configuration list for PBXNativeTarget "Marble Madness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D6F4DB209BC1BE002229FB /* Debug */,
+				91D6F4DC209BC1BE002229FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D6F4DD209BC1BE002229FB /* Build configuration list for PBXNativeTarget "Marble MadnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D6F4DE209BC1BE002229FB /* Debug */,
+				91D6F4DF209BC1BE002229FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D6F4E0209BC1BE002229FB /* Build configuration list for PBXNativeTarget "Marble MadnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D6F4E1209BC1BE002229FB /* Debug */,
+				91D6F4E2209BC1BE002229FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91D6F4A4209BC1BE002229FB /* Project object */;
+}
